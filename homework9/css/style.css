@@ -1,0 +1,63 @@
+.modal-window{
+ display: none;
+  width: 450px;
+  height: 250px;
+background-color: #004445;
+border-radius: 5%;
+  text-align: center;
+
+text-align: center;
+padding: 20px;
+}
+.hide{
+  display: block;
+}
+img{
+  width: 700px;
+  height: 500px;
+}
+
+p{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+ .block{
+  
+  display: none;
+  width: 500px;
+  height: 300px;
+  padding: 50px;
+  background-color: #000;
+  border-radius: 5%;
+}
+
+.container{
+  margin: 300px auto;
+  width: 400px;
+}
+.slider{
+  position: relative;
+width: 700px;
+  height: 500px;
+    transition: all ease 0.5s;
+    overflow: hidden;
+  }
+  
+  .sliderLine{
+    width: 2800px;
+    transition: all ease 1s;
+    position: absolute;
+    
+  
+}
+
+.box{
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+position: relative;
+}
+
+
